@@ -1,0 +1,20 @@
+{
+    "name": "professional/test-parse",
+    "autoload": {
+        "psr-4": {
+            "Professional\\TestParse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sergey",
+            "email": "yosega@yandex.ru"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^5.4",
+        "simplon/mysql": "*",
+        "symfony/css-selector": "^5.4",
+        "robmorgan/phinx": "^0.12.9"
+    }
+}
